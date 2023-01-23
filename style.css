@@ -14,19 +14,19 @@ Debug
 ---------------*/
 
 .debug .container {
-    height: 300px;
+    height: 650px;
     background-color: rgb(0, 0, 150);
 }
 
 .debug .header-top {
-    height: 60px;
+    height: 175px;
     margin: auto;
     background-color: #add8e6;
 }
 
 .debug .nav {
     height: 50px;
-    width: 1000px;
+    width: 3000px;
     margin: auto;
     background-color: #ffa500;
 }
@@ -48,10 +48,71 @@ Debug
 }
 
 .debug .header-content {
-    height: 200px;
-    width: 600px;
+    height: 400px;
+    width: 2000px;
     margin: 25px auto;
     background-color: rgb(255, 125, 244);
+    border: dashed;
+}
+
+.debug .even{
+    height: 500px;
+    background-color: #ffffff;
+
+}
+
+.debug .odd{
+    height: 500px;
+    background-color: #d3d3d3 ;
+
+}
+
+.debug .big-box {
+    height: 470px;
+    width: 1500px;
+    background-color: #0099ff ;
+    border: dashed;
+}
+
+.debug .small-box {
+    height: 470px;
+    width: 1000px;
+    background-color: pink ;
+    border: dashed;
+}
+
+.debug .last-section{
+    height: 1950px;
+    background-color: #d3d3d3 ;
+}
+
+.debug .green-box{
+    height: 1800px;
+    width: 2500px;
+    background-color: #5bb45b;
+    border: dashed;
+    
+}
+
+.debug .top-footer{
+    height: 500px;
+    width: 2500px;
+    margin: auto;
+    background-color: #000000;
+}
+
+.debug .bottom-footer{
+    width: 2500px;
+    margin: auto;
+    background-color: #000000;
+    border: dashed;
+}
+
+.debug .wide-box{
+    height: 500px;
+    margin: auto;
+    background-color: #dc7676;
+    border: dashed;
 }
 
 /*--------------
@@ -62,13 +123,12 @@ nav {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 10px;
 }
 
 .logo, .link, .login {
     border: dashed;
     color: rgb(0, 0, 0);
-    font-size: small;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 5px 5px 5px 5px;
@@ -90,3 +150,31 @@ a:hover {
     text-decoration: underline;
 }
 
+/*--------------
+Sezioni
+---------------*/
+
+.even {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.odd {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: white;
+}
+
+.last-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-footer {
+    display: flex;
+}
