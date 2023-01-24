@@ -91,7 +91,6 @@ Debug
     width: 2500px;
     background-color: #5bb45b;
     border: dashed;
-    
 }
 
 .debug .top-footer{
@@ -132,8 +131,6 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 5px 5px 5px 5px;
-
-
 }
 
 .login {
